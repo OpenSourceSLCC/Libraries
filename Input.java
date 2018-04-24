@@ -76,7 +76,7 @@ public class Input {
 						SetKey(e.getKeyCode(), false);	// Updates current state
 						break;
 				}
-				return true;
+				return false;
 			}
 		});
 	}
